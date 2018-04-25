@@ -14,12 +14,10 @@ class androidEjemplo : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setContentView(R.layout.activity_android_ejemplo)
         texto_central.text = "Adios"
         var valorTextoCentral = texto_central.text
-        Log.i("clase","El texto que se muestra es" ${texto_central.text}${valorTextoCentral})
-
+        //Log.i("clase","El texto que se muestra es" ${texto_central.text}${valorTextoCentral})
 
         Log.e("clase","Esto es un error")
         Log.w("clase","Esto es un error")
@@ -27,14 +25,13 @@ class androidEjemplo : AppCompatActivity() {
         Log.i("clase","Esto es un error")
         Log.v("clase","Esto es un error")
 
-
-
-
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
+
+
         }
     }
 
