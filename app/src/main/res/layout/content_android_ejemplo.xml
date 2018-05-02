@@ -23,7 +23,7 @@
         tools:textColorLink="@android:color/holo_orange_light" />
 
     <Button
-        android:id="@+id/button_navegar_actividad2"
+        android:id="@+id/button_navegar_activida_dos"
         android:layout_width="wrap_content"
         android:layout_height="107dp"
         android:layout_marginBottom="8dp"
