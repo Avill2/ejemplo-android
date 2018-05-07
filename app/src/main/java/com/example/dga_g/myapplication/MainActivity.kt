@@ -45,6 +45,8 @@ class MainActivity : AppCompatActivity() {
             Log.i("tag", "Ya tiene este permiso")
         }
 
+
+
     }
 
     fun irActividadDos() {

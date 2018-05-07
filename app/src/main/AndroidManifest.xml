@@ -8,10 +8,12 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.CAMERA" />
 
+    <uses-feature
+        android:name="android.hardware.sensor.compass"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -52,10 +54,17 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
+
                 <category android:name="android.intent.category.DEFAULT" />
+
                 <data android:mimeType="text/plain" />
             </intent-filter>
         </activity>
+        <activity android:name=".Main4Activity" />
+        <activity
+            android:name=".Main5Activity"
+            android:label="@string/title_activity_main5"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

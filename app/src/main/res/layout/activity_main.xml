@@ -50,4 +50,31 @@
         tools:layout_editor_absoluteX="3dp"
         tools:layout_editor_absoluteY="365dp" />
 
+    <ImageView
+        android:id="@+id/spinnerActivity"
+        android:layout_width="164dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_actividad"
+        app:layout_constraintStart_toStartOf="@+id/btn_actividad"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <Button
+        android:id="@+id/Spinner_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spinner"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="398dp" />
+
 </android.support.constraint.ConstraintLayout>
