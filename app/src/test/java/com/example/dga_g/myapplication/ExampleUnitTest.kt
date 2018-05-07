@@ -1,4 +1,4 @@
-package com.example.usrgam.ejemplo
+package com.example.dga_g.myapplication
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.usrgam.ejemplo
+package com.example.dga_g.myapplication
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.example.usrgam.ejemplo", appContext.packageName)
+        assertEquals("com.example.dga_g.myapplication", appContext.packageName)
     }
 }
