@@ -64,6 +64,18 @@
         <activity
             android:name=".Main5Activity"
             android:label="@string/title_activity_main5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cicloDeVida"
+            android:label="@string/title_activity_ciclo_de_vida"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MunyActivity"
+            android:label="@string/title_activity_muny"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dialogoActivity"
+            android:label="@string/title_activity_dialogo"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

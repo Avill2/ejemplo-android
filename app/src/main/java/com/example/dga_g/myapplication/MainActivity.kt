@@ -34,6 +34,9 @@ class MainActivity : AppCompatActivity() {
             irActividadDos()
         }
 
+        button_cicloVida.setOnClickListener{ v: View? ->
+            irAActividadCicloVida()
+        }
         val permission = ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA
         )
         Log.i("tag", "Crear permiso ${permission}")
@@ -56,10 +59,21 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun irAActividadCicloVida() {
+        val intent = Intent(this, cicloDeVida::class.java)
+        startActivity(intent)
+    }
+
+    fun irAActividadMenu() {
+        val intent = Intent(this, MunyActivity::class.java)
+        startActivity(intent)
+    }
+
 
     companion object {
         val RESULTADO_PERMISO_CAMERA = 1
     }
+
 
 
 }
